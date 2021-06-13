@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px 0px;
+    background-color:white;
+    width: 100vw;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+    background-color: rgb(6, 90, 31);
+    height: 100px;
+    padding: 20px 10%;
+}
+
+h1{
+    margin:0px;
+    font-size: 46px;
+    color: white;
+}
+
+.container{
+    margin-top: 10px !important;
+    color: #635757;
+    margin: 0px auto;
+    width: 80%;
+    border: solid 2px rgb(201, 192, 192);
+    padding: 31px 25px;
+    border-radius: 5px;
+}
+
+#enterItem{
+    width: 26%;
+    height: 31px;
+    padding: 1px 8px;
+    font-size: 14px;
+    border: 2px solid #5fa06d;
+    border-radius: 5px;
+}
+
+#enterItem:focus{
+    outline: none;
+}
+
+button{
+    display: inline-block;
+    margin-left: 32px;
+    vertical-align: middle;
+    width: 61px;
+    height: 21px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #1b611b;
+    background-color: #218c21;
+    color: white;
+}
+.items h3{
+    margin: 21px 0px 3px 8px;
+    padding: 0px;
+}
+
+.itemsList{
+    margin: 0px 10px;
+    padding: 0px 18px
+}
+.itemsList li{
+    list-style: none;
+    padding: 2px 0px;
+    font-size: 15px;
+    border-bottom: 2px solid green;
+    width: 38%;
+}
